@@ -1,2 +1,21 @@
+.fluid{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first_row, .second_row,.third_row,.fourth_row{
+    border: 1px solid black;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+img{
+    padding: 2px;
+    margin: 5px;
+    width: 80px;
+}
 /* Your CSS Code here. */
